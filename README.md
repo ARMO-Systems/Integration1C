@@ -1,10 +1,23 @@
 # Интеграция Timex 3.9.1 с 1C 8.2 ЗУП 2.5 #
-==
 
 Этот пример интеграции системы контроля доступа и учета рабочего времени [Timex](http://www.armotimex.ru/) и [1С:Зарплата и управление персоналом 8](http://v8.1c.ru/hrm/)
 
 Код, модуль внешней обработки, описание и все файлы из данного репозитория распространяются под лицензией [MIT](http://opensource.org/licenses/MIT).
 
+Оригинальный репозиторий находится по адресу [https://github.com/Podlesnyy/Integration1C](https://github.com/Podlesnyy/Integration1C)
+
+## Руководство пользователя ##
+
+1. Загрузите внешнюю обработку [https://github.com/Podlesnyy/Integration1C/raw/master/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf](https://github.com/Podlesnyy/Integration1C/raw/master/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf "ОбменTimex.epf")
+2. Установите настройки соединения с сервисом Timex SDK во вкладке **Настройки**. Задайте логин/пароль оператора Timex.
+![](https://raw.github.com/Podlesnyy/Integration1C/master/img/settings.png)
+3. Для экспорта структуры компаний, должностей и сотрудников используйте вкладку **"Выгрузить"**.
+Отметьте галочками что именно вы хотите выгрузить в Timex и нажмите кнопку **"Выгрузить"**.
+![](https://raw.github.com/Podlesnyy/Integration1C/master/img/export.png)
+4. Для импорта информации об отработанном времени перейдите во вкладку **"Загрузить"**.
+Задайте даты для которых требуется загрузить информацию и нажмите кнопку **"Запрос данных"**
+После получения данных, нажмите кнопку **"Записать табель"**
+![](https://raw.github.com/Podlesnyy/Integration1C/master/img/import.png)
 
 
 
