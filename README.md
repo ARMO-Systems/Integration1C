@@ -4,11 +4,11 @@
 
 Код, модуль внешней обработки, описание и все файлы из данного репозитория распространяются под лицензией [MIT](http://opensource.org/licenses/MIT).
 
-Оригинальный репозиторий находится по адресу [https://github.com/Podlesnyy/Integration1C](https://github.com/Podlesnyy/Integration1C)
+Оригинальный репозиторий находится по адресу [https://github.com/ARMO-Systems/Integration1C](https://github.com/ARMO-Systems/Integration1C)
 
 ## Руководство пользователя ##
 
-1. Загрузите внешнюю обработку [https://github.com/Podlesnyy/Integration1C/raw/master/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf](https://github.com/Podlesnyy/Integration1C/raw/master/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf "ОбменTimex.epf")
+1. Загрузите внешнюю обработку [ОбменTimex.epf](https://raw.githubusercontent.com/ARMO-Systems/Integration1C/3.9/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf)
 2. Установите настройки соединения с сервисом Timex SDK во вкладке **Настройки**. Задайте логин/пароль оператора Timex.
 ![](https://raw.github.com/Podlesnyy/Integration1C/master/img/settings.png)
 3. Для экспорта структуры компаний, должностей и сотрудников используйте вкладку **"Выгрузить"**.
