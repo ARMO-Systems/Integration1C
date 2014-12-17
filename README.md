@@ -8,7 +8,7 @@
 
 ## Руководство пользователя ##
 
-1. Загрузите внешнюю обработку [ОбменTimex.epf](https://raw.githubusercontent.com/ARMO-Systems/Integration1C/3.10/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex.epf)
+1. Загрузите [внешнюю обработку](https://raw.githubusercontent.com/ARMO-Systems/Integration1C/3.10/obrabotka/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BDTimex%D0%97%D0%A3%D0%9F2.5_v3.2.epf)
 2. Установите настройки соединения с сервисом Timex SDK во вкладке **Настройки**. Задайте логин/пароль оператора Timex.
 ![](https://raw.github.com/Podlesnyy/Integration1C/master/img/settings.png)
 3. Для экспорта структуры компаний, должностей и сотрудников используйте вкладку **"Выгрузить"**.
